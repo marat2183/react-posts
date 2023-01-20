@@ -1,0 +1,13 @@
+.post {
+  overflow: hidden;
+  display: grid;
+  gap: 15px;
+
+  background-color: cadetblue;
+  border-radius: 15px;
+}
+
+.post__image {
+  max-width: 100%;
+  height: auto;
+}
