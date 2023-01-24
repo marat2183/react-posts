@@ -3,9 +3,9 @@ import { postGenerator } from 'utils/postGenerator';
 const getPosts = () =>
   new Promise((resolve) => {
     setTimeout(() => {
-      const generatedPosts = postGenerator(15);
+      const generatedPosts = postGenerator(100);
       resolve(generatedPosts);
-    }, 2000);
+    }, 1000);
   });
 
 export { getPosts };
